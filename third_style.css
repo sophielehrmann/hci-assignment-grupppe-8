@@ -1,0 +1,76 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background: #fff;
+}
+
+.camera-view {
+    width: 100%;
+    height: 20vh; /* Adjust height as needed */
+    background-color: #ddd; /* Placeholder color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    font-size: 16px;
+}
+
+.desk-image {
+    width: 100%;
+    height: auto;
+}
+
+.icon-bar {
+    display: flex;
+    overflow-x: auto;
+    margin: 20px 0;
+    padding: 10px 0;
+    white-space: nowrap;
+}
+
+.icon img {
+    width: 60px; /* Size of icons */
+    height: 60px;
+    margin-right: 10px;
+}
+
+.view-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.view-button:hover {
+    background-color: #0056b3;
+}
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    button {
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+}
