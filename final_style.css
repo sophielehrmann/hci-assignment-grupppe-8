@@ -40,3 +40,21 @@ h1 {
     color: #2d3436;
     text-align: center;
 }
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    button {
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+}
