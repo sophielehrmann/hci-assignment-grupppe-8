@@ -74,3 +74,10 @@ body, html {
         font-size: 16px;
     }
 }
+
+.thumbnail {
+    max-width: 42px; /* Adjust the maximum width as needed */
+    max-height: 42px; /* Adjust the maximum height as needed */
+    width: auto;
+    height: auto;
+}
